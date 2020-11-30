@@ -1,0 +1,77 @@
+/*
+Theme name: WordPress theme
+Author: Anthony
+Description: Test theme WordPress
+*/
+
+body {
+	font-family: 'arial', sans-serif;
+	color: #333;
+    margin: 0;
+}
+
+main {
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+main#accueil {
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+	margin-top: 20px;
+	background-color: #eee;
+	padding: 20px;
+	position: absolute; 
+	bottom: 0;
+	width: -webkit-fill-available;
+}
+
+div[class^='menu'] {
+	background-color: #eee;
+	padding: 20px;
+}
+
+body > h1 {
+	padding: 0;
+	width: 1000px;
+	margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.page_item {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.page_item a,
+main article a {
+	text-decoration: none;
+	color: #333;
+}
+
+.page_item a:hover,
+main article a:hover {
+	text-decoration: underline;
+}
+
+article {
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+.nav-links{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+
+}
+
+
