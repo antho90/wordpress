@@ -7,5 +7,5 @@
 	<title><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></title>
 </head>
 
-<body>
+<body class="b">
     <?php wp_nav_menu( array( 'theme_location' => 'menu_principal' )); ?>
